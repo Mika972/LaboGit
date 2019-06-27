@@ -1,0 +1,138 @@
+/*	CSS pour le CV du developpeur web & technicien ;-)				*/
+/*	Attention, utilisation d'une nouvelle version de awesome	*/
+/*	plus précisément la version Font Awesome 5.3 							*/
+/**************************************************************/
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face	{
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-Regular.ttf");
+}
+*::-moz-selection {
+	background-color: rgba(246, 36, 89,0.8);
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+html  {
+  font-size: 62.5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+body  {
+  background: rgb(255,255,255);
+  font-weight: normal;
+	height: 1122.5204px; /*Hauteur du format A4*/
+}
+.tof  {
+  width: 225px;
+}
+aside	{
+	width: 225px;
+	background: rgba(42, 172, 184, 1);
+	color: white;
+	height: 1107px;/*1130px; Gestion de la longueur de aside, pour que cela rentre bien dans la feuille A4*/
+}
+aside p	{
+	text-align: justify;
+	/*line-height: 1.5;*/
+	width: 230px;
+}
+.objs p	{
+	line-height: 1.8;
+}
+.objs h2, .comptcs h2, .infosCompl h2, .refs h2	{
+	padding-bottom: 5px;
+	margin-left: 15px;/*8px;*/
+	border-bottom: 1px solid white;
+	width: 199px;/*207px;*/
+}
+.objs	p, .comptcs p, .infosCompl p, .refs p {
+	padding: 0 16px/*13px*/ 0 16px;/*8px;*/
+}
+.laTete a,
+.coeurInfos a	{
+	text-decoration: none;
+}
+.contient {
+	max-width: 796px;/*793.700787px; Largeur du format A4*/
+	margin: 0 auto;
+}
+span	{
+	font-weight: bold;
+}
+.coeurInfos	{
+	width: 793px;
+	color: rgba(0, 33, 37, 1);/*Color Bleu MarinE du texte coeur*/
+}
+.expPros h2, .formation h2, .langue h2, .langageInfos h2	{
+	margin-left: 20px;
+	border-bottom: 1px solid rgba(0, 33, 37, 1);/*Color Bleu MarinE du texte coeur*/
+	width: 522px;/*500px;Largeur du soulignage des titres*/
+	padding-bottom: 4.5px;
+}
+.expPros article, .formation h3, /*.formation p,*/ .langues h3,
+.langue p, .langageInfos h3, .langageInfos p	{
+	margin-left: 20px;
+}
+.formation p	{
+	margin: 3px 0 3px 20px;
+}
+.formation h3	{
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+.laTete h1	{
+	/*text-align: center;*/
+	padding-left: 25px;
+}
+.metier	{
+	display: flex;
+	flex-direction: column;
+
+	text-align: center;
+}
+.coordonnees	{
+	display: flex;
+	justify-content: space-around;
+	height: 76px;/*54px;*/
+	background: rgba(42, 172, 184, 1); /*Bleu Tur_FONCE*/
+	margin-top: 0px;/*16px;*/
+}
+.coordonnees	a	{
+	margin-top: 30px;/*16px;*/
+	color: white;
+	font-size: 1.2rem;
+}
+.coordonnees i {
+	padding-right: 5px;
+}
+.coeurInfos h2 i	{
+	padding-right: 12px;
+}
+.coeurInfos	.paragrapheP	{
+	line-height: 0.8;
+}
+section	{
+	display: flex;
+}
+.expPros h3	{
+	margin: 8px 0;
+}
+.metier a	{
+	color: white;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-weight: bold;
+}
+.langageInfos	h3,
+.formation h3	{
+	margin: 7px 0 7px 20px;
+}
+.langageInfos	p,
+.formation p {
+	margin: 7px 0 7px 20px;
+		line-height: 1.1;
+}
