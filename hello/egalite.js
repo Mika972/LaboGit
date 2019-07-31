@@ -1,4 +1,5 @@
-/Eality*******
+"use strict";
+//Eality*******
 var x = 7, y = 7;
 if (x == y) {
   console.log("x=7 est égal à y=7");
