@@ -1,4 +1,9 @@
 "use strict";
+/*
+* Si on place fuction b() {} dans la fonction anonyme, alors cela change tout,
+* il ne prendra en compte, que la nouvelle valeur de message, dans la fonction
+* anonyme.
+*/
 var message = "in global";
 console.log("global: message = " + message);
 
