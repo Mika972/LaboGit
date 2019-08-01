@@ -17,4 +17,5 @@ function b() {
 console.log("b: message = " + message);
 }
 
+// a() fait référence à la fonction anonyme dans la variable a
 a();
