@@ -8,4 +8,4 @@ function orderChickenWith(sideDish) {
 *  Cela donnera Chicken with noodles
 */
 orderChickenWith("noodles");
-
+orderChickenWith(); //Si il n'y a rien en argument à la fonction, cela donnera undefined
