@@ -9,3 +9,15 @@ function orderChickenWith(sideDish) {
 */
 orderChickenWith("noodles");
 orderChickenWith(); //Si il n'y a rien en argument à la fonction, cela donnera undefined
+
+
+/*
+* Autre exemple, avec un conditionnel 'if' dans la fonction
+* Cela donne Chicken with whatever
+*/
+function orderChickenWith(sideDish) {
+  if (sideDish === undefined) {
+    sideDish = "whatever !";
+  }
+  console.log("Chicken with " + sideDish);
+}
