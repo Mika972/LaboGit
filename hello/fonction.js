@@ -4,5 +4,8 @@ function orderChickenWith(sideDish) {
   console.log("Chicken with " + sideDish);
 }
 
-// Exemple lorsque l'on ytilise la fonction, une fois crée
+/* Exemple lorsque l'on utilise la fonction, une fois crée
+*  Cela donnera Chicken with noodles
+*/
 orderChickenWith("noodles");
+
