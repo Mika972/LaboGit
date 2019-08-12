@@ -10,7 +10,6 @@ console.log(company);
 /*
 * Si on déclare company.ceo comme un objet, alors il apparait bien dans la console
 */
-
 company.ceo = new Object();
 company.ceo.firstName = "Mark";
 
