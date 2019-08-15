@@ -7,7 +7,20 @@ var facebook = {
     firstName = "Mark",
     favColor = "blue"
    },
-   $stock: 110
+   /*$stock: 110*/
+   "stock of company": 110
 };
 
 console.log(facebook);
+
+/**********************************************************
+* Autre exemple
+*/
+var company = {
+  ceo: {
+  
+  }
+}
+
+console.log(facebook.ceo.firstName);
+
