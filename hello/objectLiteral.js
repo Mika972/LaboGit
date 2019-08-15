@@ -18,8 +18,9 @@ console.log(facebook);
 */
 var company = {
   ceo: {
-  
-  }
+    /*On peut remplir ce que l'on veut pour créer un nouvel objet*/
+  },
+  "stock of company": 110
 }
 
 console.log(facebook.ceo.firstName);
