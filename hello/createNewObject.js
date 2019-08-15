@@ -1,5 +1,5 @@
 'use strict'
-
+/* Leçon 44*/
 // Object creation
 var company = new Object();
 company.name = "facebook";
