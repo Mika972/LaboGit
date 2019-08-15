@@ -16,7 +16,7 @@ company.ceo.favColor = "blue";
 
 console.log(compay);
 console.log("Company CEO name is: " + company.ceo.firstName);
-console.log(company["name"]); // Dans la console, donne facebook
+console.log(company["name"]); // Dans la console, cela donne facebook
 
 /*
 * Autre exemple
@@ -25,4 +25,4 @@ company.$stock = 110;
 company["stock of enterprise"] = 110
 
 console.log(company);
-console.log("Stock price is: " + company["stock of enterprise"]);
+console.log("Stock price is: " + company["stock of enterprise"]); // Dans la console, cela donne 110
