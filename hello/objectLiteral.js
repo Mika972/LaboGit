@@ -1,4 +1,5 @@
 'use strict'
+/*Leçon 45*/
 // Bonne façon de créer un objet en javascript
 var facebook = {
   name = "Facebook",
