@@ -1,6 +1,7 @@
 'use strict'
 /* Leçon 44*/
 // Object creation
+/*Il est aujourd’hui généralement déconseillé de créer un objet de cette façon (new Object()) pour des raisons de performance du code*/
 var company = new Object();
 company.name = "facebook";
 company.ceo.firstName = "Mark"; // va provoquer une erreur, mais uniquement la ligne 
