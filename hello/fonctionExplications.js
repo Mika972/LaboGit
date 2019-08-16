@@ -24,4 +24,4 @@ function makeMultiplier(multiplier) {
 var multiplyBy3 = makeMultiplier(3);
 
 console.log(multiplyBy3(10));/* Cela donne 30. Comme si la fonction makeMultiplier(multiplier, x)
-avait multiplier et x en arguments*/
+avait "multiplier" et "x" en arguments à la fonction*/
