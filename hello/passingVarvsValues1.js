@@ -1,5 +1,5 @@
 'use strict'
-
+// Après avoir déclaré et affecté a à b, après affection de 5, b change de valeur 
 var a = 7;
 var b = a;
 b = 5;
