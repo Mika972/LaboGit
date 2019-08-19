@@ -39,6 +39,6 @@ function changeObject(objValue) {
 }
 
 value = {x: 7};
-changeObject(value);
+changeObject(value); // objValue = value
 console.log("after changeObject, orig value:");
 console.log(value);
