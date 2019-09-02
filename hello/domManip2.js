@@ -10,6 +10,6 @@ commentaire)*****/
 function sayHello() {
   var name = document.getElementById("name").value;
   var message = "Hello " + name + "!" ;
-  
+  //Cela signifie que dans la page web,  l'élémenet ID "content", affichera le message
   document.getElementById("content").textContent = message;
 }
