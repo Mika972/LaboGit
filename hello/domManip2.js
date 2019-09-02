@@ -32,12 +32,12 @@ function sayHello() {
 */
 function sayHello() {
   var name = document.getElementById("name").value;
-  var message = "<h2>Hello " + name + "!</h2>";
-  //Cela signifie que dans la page web,  l'élémenet ID "content", affichera le message
+  var message = "<h2>Hello " + name + " !</h2>";
+//Cela signifie que dans la page web,  l'élémenet ID "content", affichera le message
   document.getElementById("content").innerHTML = message;
   if (name === "student") {
-    var title = document.querySelector("#title").textContent;
-    title += "& lovin' it!";
+    var title = document.querySelector("#title").textContent;//# car c'est une class
+    title += " & lovin' it!";
     document.querySelector("#title").textContent = title;
   }
 }
