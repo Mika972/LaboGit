@@ -7,7 +7,7 @@ console.log(document.getElementById("name").value;
 
 /*
 *Autre exemple(Il faudra penser à placer la fonction du dessus en 
-commentaire)
+* commentaire)
 */
 function sayHello() {
   var name = document.getElementById("name").value;
