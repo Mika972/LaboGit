@@ -26,7 +26,8 @@ function sayHello() {
   document.getElementById("content").innerHTML = message;
 }
 /*
-* Autre exemple, on ajoute une condition if
+* Autre exemple, on ajoute une condition if. Si la condition est vraie
+* alors, le code affichera "& lovin' it" après le titre Lecture 53
 */
 function sayHello() {
   var name = document.getElementById("name").value;
