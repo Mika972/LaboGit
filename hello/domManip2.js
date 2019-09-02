@@ -17,7 +17,7 @@ function sayHello() {
 }
 /*
 * Cette fois on veut que le contenu de la balise h2 soit modifié
-* Il faudra utiliser innerHTML(Penser à mettre les fonction ci-dessus en commentaire)
+* Il faudra utiliser innerHTML(Penser à mettre les fonction au-dessus en commentaire)
 */
 function sayHello() {
   var name = document.getElementById("name").value;
@@ -28,6 +28,7 @@ function sayHello() {
 /*
 * Autre exemple, on ajoute une condition if. Si la condition est vraie
 * alors, le code affichera "& lovin' it" après le titre Lecture 53
+* (Penser à mettre les fonction au-dessus en commentaire)
 */
 function sayHello() {
   var name = document.getElementById("name").value;
