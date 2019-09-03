@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded",
       document.getElementById("content").innerHTML = message;
 
       if (name === "student") {
-        var title = document.querySelector("#title").textContent;//# car c'est une class
+        var title = document.querySelector("#title").textContent;//# car c'est un id
         title += " & lovin' it!";
         document.querySelector("#title").textContent = title;
       }
