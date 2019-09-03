@@ -6,4 +6,4 @@
 **/
 
 /*unobtrusive event binding*/
-document.querySelector("button").addEventListener("click", sayHello);
+document.querySelector("button").addEventListener("click", sayHello);//Ecouteurs ?
