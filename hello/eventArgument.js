@@ -1,7 +1,7 @@
 'use strict'
 
 /**
-* event en argument dans une fonction, sert à capter les évènements du DOM (page HTML)
+* evenement en argument dans la fonction, sert à capter les évènements du DOM (page HTML)
 * afin de les exploiter dans le corp de la fonction, ou des fonctions
 * Dans le HTML, n'utiliser que eventArgument.js
 **/
