@@ -43,3 +43,22 @@
   //Expose utility to the global Object
   global.$ajaxUtils = ajaxUtils;
 })(window);
+/***************************************************************************************
+* On peut mettre les lignes ci-dessous dans un autre fichier .js, pour une
+* meilleur visibilité. Les lignes au dessus dans un fichier du nom de "ajax-utils.js" et
+* les lignes du dessous, dans un fichier "script.js"
+****************************************************************************************/
+document.addEventListener("DOMContentLoaded",
+  function(event) {
+    // Unobstrusive event binding
+    document.querySelector("button").addEventListener("click", function() {
+        // Call server to get the namespace docs/name.txt
+        $ajaxUtils.sendGetRequest("/data/name.txt",
+          function(request) {
+            var name = request.responseText;
+
+            document.querySelector("#content").innerHTML = "<h2>Hello " + name + "!";
+          });
+      });
+  }
+);
