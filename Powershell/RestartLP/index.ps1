@@ -13,6 +13,7 @@ $form = New-Object System.Windows.Forms.Form
 $label_postes = New-Object System.Windows.Forms.Label
 $label_messages = New-Object System.Windows.Forms.Label
 $bouton_ReStart = New-Object System.Windows.Forms.Button
+$bouton_Reset = New-Object System.Windows.Forms.Button
 $checkbox_Pythagore = New-Object System.Windows.Forms.checkbox
 $checkbox_Pascal = New-Object System.Windows.Forms.checkbox
 $checkbox_Einstein = New-Object System.Windows.Forms.checkbox
