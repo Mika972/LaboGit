@@ -1,5 +1,5 @@
 ####=============####
-#    RestartLPV1    ###09/2019
+#    RestartLPV1    ###24/09/2019
 ####=============####
 
 [void][reflection.assembly]::Load('System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089')
@@ -25,6 +25,9 @@ $checkbox_Archimede = New-Object System.Windows.Forms.Checkbox
 $checkbox_Newton = New-Object System.Windows.Forms.Checkbox
 $checkbox_Copernic = New-Object System.Windows.Forms.Checkbox
 $checkbox_Kepler = New-Object System.Windows.Forms.Checkbox
+# Include les bibliotheques et fonctions du programme
+. "C:\bibliotheque.ps1"
+#=============================================================================================================================#
 #
 # Form de RestartLP
 #
@@ -82,5 +85,61 @@ $checkbox_Einstein.Name = 'checkbox_Einstein'
 $checkbox_Einstein.TabIndex = 3
 $checkbox_Einstein.Text = 'Einstein'
 $checkbox_Einstein.Visible = $True
+#
+# CheckBox Salle Darwin
+#
+$checkbox_Darwin.Location = New-Object System.Drawing.Point(80, 140)
+$checkbox_Darwin.Name = 'checkbox_Darwin'
+$checkbox_Darwin.TabIndex = 4
+$checkbox_Darwin.Text = 'Darwin'
+$checkbox_Darwin.Visible = $True
+#
+# CheckBox Salle Curie
+#
+$checkbox_Curie.Location = New-Object System.Drawing.Point(80, 165)
+$checkbox_Curie.Name = 'checkbox_Curie'
+$checkbox_Curie.TabIndex = 5
+$checkbox_Curie.Text = 'Curie'
+$checkbox_Curie.Visible = $True
+#
+# CheckBox Salle Descartes
+#
+$checkbox_Descartes.Location = New-Object System.Drawing.Point(80, 190)
+$checkbox_Descartes.Name = 'checkbox_Descartes'
+$checkbox_Descartes.TabIndex = 6
+$checkbox_Descartes.Text = 'Descartes'
+$checkbox_Descartes.Visible = $True
+#
+# CheckBox Salle Archimede
+#
+$checkbox_Archimede.Location = New-Object System.Drawing.Point(80, 215)
+$checkbox_Archimede.Name = 'checkbox_Archimede'
+$checkbox_Archimede.TabIndex = 7
+$checkbox_Archimede.Text = 'Archimede'
+$checkbox_Archimede.Visible = $True
+#
+# CheckBox Salle Newton
+#
+$checkbox_Newton.Location = New-Object System.Drawing.Point(80, 240)
+$checkbox_Newton.Name = 'checkbox_Newton'
+$checkbox_Newton.TabIndex = 4
+$checkbox_Newton.Text = 'Newton'
+$checkbox_Newton.Visible = $True
+#
+# CheckBox Salle Copernic
+#
+$checkbox_Copernic.Location = New-Object System.Drawing.Point(80, 265)
+$checkbox_Copernic.Name = 'checkbox_Copernic'
+$checkbox_Copernic.TabIndex = 4
+$checkbox_Copernic.Text = 'Copernic'
+$checkbox_Copernic.Visible = $True
+#
+# CheckBox Salle Kepler
+#
+$checkbox_Kepler.Location = New-Object System.Drawing.Point(80, 290)
+$checkbox_Kepler.Name = 'checkbox_Kepler'
+$checkbox_Kepler.TabIndex = 4
+$checkbox_Kepler.Text = 'Kepler'
+$checkbox_Kepler.Visible = $True
 #=============================================================================================================================#
 $form.ShowDialog()
