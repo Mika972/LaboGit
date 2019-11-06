@@ -1,12 +1,13 @@
 ####=============####
 #    RestartLPV1    ###24/09/2019
 ####=============####
+# Fichier principal (squelette du programme)
 
-[void][reflection.assembly]::Load('System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089')
-[void][reflection.assembly]::Load('System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089')
-[void][reflection.assembly]::Load('System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a')
-[void][reflection.assembly]::Load('System.DirectoryServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a')
-[void][reflection.assembly]::Load('System.ServiceProcess, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a')
+# Include les bibliotheques et fonctions du programme
+. "C:\Labo\RestartLP\bibliotheque.ps1"
+. "C:\Labo\RestartLP\applications.ps1"
+#=============================================================================================================================#
+
 ## Déclarations des variables
 ##
 $form = New-Object System.Windows.Forms.Form
@@ -15,6 +16,7 @@ $label_Salles = New-Object System.Windows.Forms.Label
 $label_messages = New-Object System.Windows.Forms.Label
 $bouton_ReStart = New-Object System.Windows.Forms.Button
 $bouton_Reset = New-Object System.Windows.Forms.Button
+$bouton_Sortie = New-Object System.Windows.Forms.Button
 $checkbox_Pythagore = New-Object System.Windows.Forms.Checkbox
 $checkbox_Pascal = New-Object System.Windows.Forms.Checkbox
 $checkbox_Einstein = New-Object System.Windows.Forms.Checkbox
@@ -25,9 +27,7 @@ $checkbox_Archimede = New-Object System.Windows.Forms.Checkbox
 $checkbox_Newton = New-Object System.Windows.Forms.Checkbox
 $checkbox_Copernic = New-Object System.Windows.Forms.Checkbox
 $checkbox_Kepler = New-Object System.Windows.Forms.Checkbox
-# Include les bibliotheques et fonctions du programme
-. "C:\bibliotheque.ps1"
-#=============================================================================================================================#
+$progressBar = New-Object System.Windows.Forms.ProgressBar
 #
 # Form de RestartLP
 #
@@ -37,6 +37,7 @@ $form.Controls.Add($label_Salles)
 $form.Controls.Add($label_messages)
 $form.Controls.Add($bouton_ReStart)
 $form.Controls.Add($bouton_Reset)
+$form.Controls.Add($bouton_Sortie)
 $form.Controls.Add($checkbox_Pythagore)
 $form.Controls.Add($checkbox_Pascal)
 $form.Controls.Add($checkbox_Einstein)
@@ -141,5 +142,34 @@ $checkbox_Kepler.Name = 'checkbox_Kepler'
 $checkbox_Kepler.TabIndex = 4
 $checkbox_Kepler.Text = 'Kepler'
 $checkbox_Kepler.Visible = $True
+#
+# Bouton ReStart
+#
+$bouton_ReStart.Location = New-Object System.Drawing.Point(, )
+$bouton_ReStart.Name = 'button 1'
+$bouton_ReStart.Size = New-Object System.Drawing.Size(, )
+$bouton_ReStart.TabIndex = 5
+$bouton_ReStart.Text = 'Redemarrer les postes'
+$bouton_ReStart.UseVisualStyleBackColor = $true
+
+#
+# Bouton reset de la progressBar
+#
+$bouton_Reset.Location = New-Object System.Drawing.Point(, )
+$bouton_Reset.Name = 'button 2'
+$bouton_Reset.Size = New-Object System.Drawing.Size(, )
+$bouton_Reset.TabIndex = 5
+$bouton_Reset.Text = 'ProgressBar a 0'
+$bouton_Reset.UseVisualStyleBackColor = $true
+#
+# Bouton Sortie
+#
+$bouton_Sortie.Location = New-Object System.Drawing.Point(, )
+$bouton_Sortie.Name = 'button 3'
+$bouton_Sortie.Size = New-Object System.Drawing.Size(, )
+$bouton_Sortie.TabIndex = 7
+$bouton_Sortie.Text = 'Quitter'
+$bouton_Sortie.UseVisualStyleBackColor = $true
+sortieAppli
 #=============================================================================================================================#
 $form.ShowDialog()
