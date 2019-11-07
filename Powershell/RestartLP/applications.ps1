@@ -37,4 +37,3 @@ function resetProgressBar  {
 function sortieAppli   {
     $bouton_Sortie.Add_Click({$form.Close()})
 }
-
