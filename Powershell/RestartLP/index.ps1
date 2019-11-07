@@ -4,8 +4,9 @@
 # Fichier principal (squelette du programme)
 
 # Include les bibliotheques et fonctions du programme
-. "C:\Labo\RestartLP\bibliotheque.ps1"
-. "C:\Labo\RestartLP\applications.ps1"
+. "C:\Outils\Labo\RestartLP\bibliotheque.ps1"
+. "C:\Outils\Labo\RestartLP\applications.ps1"
+. "C:\Outils\Labo\RestartLP\choix.ps1"
 #=============================================================================================================================#
 
 ## Déclarations des variables
@@ -86,6 +87,8 @@ $checkbox_Einstein.Name = 'checkbox_Einstein'
 $checkbox_Einstein.TabIndex = 3
 $checkbox_Einstein.Text = 'Einstein'
 $checkbox_Einstein.Visible = $True
+checkBoxEinstein
+reStart($choix)
 #
 # CheckBox Salle Darwin
 #
@@ -145,28 +148,28 @@ $checkbox_Kepler.Visible = $True
 #
 # Bouton ReStart
 #
-$bouton_ReStart.Location = New-Object System.Drawing.Point(, )
+$bouton_ReStart.Location = New-Object System.Drawing.Point(50, 370 )
 $bouton_ReStart.Name = 'button 1'
-$bouton_ReStart.Size = New-Object System.Drawing.Size(, )
+$bouton_ReStart.Size = New-Object System.Drawing.Size(90, 50)
 $bouton_ReStart.TabIndex = 5
-$bouton_ReStart.Text = 'Redemarrer les postes'
+$bouton_ReStart.Text = 'Redemarre'
 $bouton_ReStart.UseVisualStyleBackColor = $true
 
 #
 # Bouton reset de la progressBar
 #
-$bouton_Reset.Location = New-Object System.Drawing.Point(, )
+$bouton_Reset.Location = New-Object System.Drawing.Point(160, 370)
 $bouton_Reset.Name = 'button 2'
-$bouton_Reset.Size = New-Object System.Drawing.Size(, )
+$bouton_Reset.Size = New-Object System.Drawing.Size(130, 50)
 $bouton_Reset.TabIndex = 5
 $bouton_Reset.Text = 'ProgressBar a 0'
 $bouton_Reset.UseVisualStyleBackColor = $true
 #
 # Bouton Sortie
 #
-$bouton_Sortie.Location = New-Object System.Drawing.Point(, )
+$bouton_Sortie.Location = New-Object System.Drawing.Point(310, 370)
 $bouton_Sortie.Name = 'button 3'
-$bouton_Sortie.Size = New-Object System.Drawing.Size(, )
+$bouton_Sortie.Size = New-Object System.Drawing.Size(90, 50)
 $bouton_Sortie.TabIndex = 7
 $bouton_Sortie.Text = 'Quitter'
 $bouton_Sortie.UseVisualStyleBackColor = $true
