@@ -4,5 +4,9 @@ Autre lien => https://www.youtube.com/watch?v=OXwYU03FeEY
 Création d'un cursor 100% JS dans une page web => https://www.cssscript.com/terminal-style-text-typing-animation-typewriting-js/
 
 Autres exemples => https://codepen.io/alexmacarthur/pen/pdXLRG
+/********************************************************************************************************************************/
+CSS-Tricks            => https://css-tricks.com/
+"Javascript Tricks"   => https://medium.com/@bretcameron/12-javascript-tricks-you-wont-find-in-most-tutorials-a9c9331f169d
+"PHP Tricks"          => https://www.arpatech.com/blog/php-tips-and-tricks-for-developers/
 
 
