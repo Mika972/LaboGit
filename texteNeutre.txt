@@ -9,4 +9,7 @@ CSS-Tricks            => https://css-tricks.com/
 "Javascript Tricks"   => https://medium.com/@bretcameron/12-javascript-tricks-you-wont-find-in-most-tutorials-a9c9331f169d
 "PHP Tricks"          => https://www.arpatech.com/blog/php-tips-and-tricks-for-developers/
 
+/*********************************************************************************************************************************/
+https://guide-angular.wishtack.io/angular/composants/template-interpolation
+
 
