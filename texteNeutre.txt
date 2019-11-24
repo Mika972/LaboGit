@@ -12,5 +12,6 @@ CSS-Tricks            => https://css-tricks.com/
 /*********************************************************************************************************************************/
 Documentation Française Angular => https://guide-angular.wishtack.io/angular/composants/template-interpolation
 Source Typewriter sour Angular :-) => https://jsfiddle.net/garethwhittaker/s4phrpx2/
+:-)   Source Terminal-like text typing direct => https://embed.plnkr.co/plunk/Mct3QE    :-)
 
 
