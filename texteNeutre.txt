@@ -1,3 +1,7 @@
+/*
+* Documents Fr sur javascript => https://www.toutjavascript.com
+*/
+
 Liens youtube pour créer un espace administration en PHP 7 => https://www.youtube.com/watch?v=VVEXn8ywScI => pleins de mauvaises pratiques
 Autre lien => https://www.youtube.com/watch?v=OXwYU03FeEY
 /********************************************************************************************************************************/
