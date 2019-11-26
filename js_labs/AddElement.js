@@ -13,7 +13,7 @@ document.body.appendChild(partit, ecrit);
 /*ATTENTION, dans la situation actuelle, le texte       */
 /*ci-dessous apparaitra, car avant, "p" a été crée ET   */
 /*déclarer dans le DOM                                  */
-partit.append(" Du texte à tester avec append");      /**/
+partit.append("   Du texte à tester avec append");    /**/
                                                       /**/
 console.log(partit.textContent);                      /**/
 /********************************************************/
