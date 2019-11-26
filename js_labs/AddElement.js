@@ -17,5 +17,5 @@ console.log(partit.textContent);                      /**/
 //Chargement d'une chaine de caractère dans la variable écrit
 var ecrit = partit.innerHTML = "Enfin du texte visible dans une page html";
 
-//Création d'un nouvel élément
+//Ajouts d'un nouvel élément et chargement de l'écrit dans ce nouvel élément
 document.body.appendChild(partit, ecrit);
