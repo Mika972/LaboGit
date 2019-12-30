@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Message d'erreur !</title>
+    </head>
+    <body>
+  
+        <form>
+            <label>Votre adresse e-mail :</label> 
+            <input class=exemple type="email" required>
+            <button type="submit">OK</button>
+        </form>  
+
+        <!-- Une autre mannière de gérer les messages d'erreurs avec javascript, plus moderne-->
+        <script>
+            var email = document.querySelector('input.exemple');
+            email.oninvalid = function(e) {
+                e.target.setCustomValidity("");
+                if (!e.target.validity.valid) {
+                    if (e.target.value.length == 0) {
+                        e.target.setCustomValidity("Ce champ est obligatoire");
+                    } else {
+                        e.target.setCustomValidity("Entrez une adresse valide. Exemple : contact@nom.com");
+                    }
+                }
+            };
+        </script>  
+
+    </body>
+</html>
