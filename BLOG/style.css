@@ -1,0 +1,41 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+      box-sizing: border-box;
+      outline: none;
+      transition: all 0.3s ease 0s;
+  }
+
+  html  {
+        font-size: 62.5%;
+        font-weight: normal;
+  }
+
+  header {
+      background-image: url(../img/NamibDesertOcean.jpg);
+      background-position: 40% 32%;
+	  background-size: cover;
+	  height: 390px;
+	  /*box-shadow: 0px 1px 12px #555;*/
+	  color: white;
+	  padding: 30px 75px;
+      text-align: center;
+  }
+
+  header h1 {
+      font-size: 4rem;
+      margin-top: 80px;
+      font-family: 'Arsenal', sans-serif;
+  }
+
+  nav {
+      margin-top: 15px;
+  }
+
+  nav a {
+      margin: 0 12px;
+      font-size: 2rem;
+      text-decoration: none;
+      color: white;
+  }  
