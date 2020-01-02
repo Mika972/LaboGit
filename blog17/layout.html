@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Blog</title>
+
+        <!-- Feuilles de style externes -->
+        <link rel="stylesheet" href="../../css/normalize-3.0.3.min.css">
+        <link rel="stylesheet" href="../../css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+        <!-- Feuilles de style de l'application -->
+        <link rel="stylesheet" href="../../css/style_layout.css">
+        <link rel="stylesheet" href="../../css/articles.css">
+        <link rel="stylesheet" href="../../css/validation.css">
+
+    </head>
+    <body>
+
+        <!-- En-tête commune de l'application -->
+        <header class="blog_En_Tete">
+            <h1><a href="index.php"><i class="fa"></i>my blog</a></h1>
+            <nav>
+                <a href="../controllers/admin.php"><i class="fa"></i>Administration</a>
+                <a href="https://premiersitewebmichaeltrabon.000webhostapp.com/"><i class="fa"></i> Retour vers le site</a>
+            </nav>
+        </header>
+        <section id="presentation">
+        </section>
+        <main>
+
+            <!-- Chargement du template PHTML spécifié par le programme PHP -->
+            <?php include $template.'.phtml' ?>
+        </main>
+
+        <!-- Pied de page commun de l'application -->
+        <footer class="blog-footer">
+            <p id="error"></p>
+            <small><span>m</span>on blog -<span>m</span>ichael <span>t</span>rabon-</small>
+        </footer>
+        <script src="../JS/erreur.js"></script>
+    </body>
+</html>
