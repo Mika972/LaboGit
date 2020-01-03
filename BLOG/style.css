@@ -2,40 +2,55 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
-      box-sizing: border-box;
-      outline: none;
-      transition: all 0.3s ease 0s;
-  }
+     box-sizing: border-box;
+     outline: none;
+     transition: all 0.3s ease 0s;
+}
 
-  html  {
-        font-size: 62.5%;
-        font-weight: normal;
-  }
+html {
+      font-size: 62.5%;
+      font-weight: normal;
+}
 
-  header {
+body    {
+    margin: 0;
+}
+
+header {
       background-image: url(../img/NamibDesertOcean.jpg);
       background-position: 40% 32%;
 	  background-size: cover;
 	  height: 390px;
-	  /*box-shadow: 0px 1px 12px #555;*/
 	  color: white;
-	  padding: 30px 75px;
+      padding: 15px 75px;
+      padding: 0;
       text-align: center;
-  }
+}
 
-  header h1 {
+header>.barreTitre>a {
       font-size: 4rem;
-      margin-top: 80px;
-      font-family: 'Arsenal', sans-serif;
-  }
+      font-family: 'Homemade Apple', cursive;
+}
 
-  nav {
+.barreTitre {
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+    /*padding: 0 15px;*/
+}
+
+header a,
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
       margin-top: 15px;
-  }
+      /*margin: 15px 0 0 700px;*/
+}
 
-  nav a {
+nav a {
       margin: 0 12px;
-      font-size: 2rem;
-      text-decoration: none;
-      color: white;
-  }  
+      font-size: 2rem;          
+}  
