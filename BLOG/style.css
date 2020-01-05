@@ -17,7 +17,7 @@ body    {
 }
 
 header {
-      background-image: url(../img/NamibDesertOcean.jpg);
+      background-image: url('../img/NamibDesertOcean.jpg');
       background-position: 40% 32%;
 	  background-size: cover;
 	  height: 390px;
