@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `auteur` (
   `firstName` varchar(50) NOT NULL,
   `lastName` varchar(50) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 /*AUTO_INCREMENT=3;*/ /*Pas besoin, car aucun auteur n'a été enregistré par défaut*/
 
 --
 -- Contenu de la table `Author`
